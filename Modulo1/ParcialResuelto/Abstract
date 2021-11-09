@@ -1,0 +1,10 @@
+Escriba en C++ un programa que lea juegos de números reales.
+La lectura de valores de un juego finaliza al leer un valor-1, que no se toma como valor
+del juego.
+Al finalizar cada juego debe informar por pantalla el mínimo valor y el promedio de los
+valores entre 20 y 40 (incluidos ambos límites) del juego.
+La lectura de juegos finaliza al leer un juego que contenga el número 27, pero debe
+terminar de procesarse dicho juego (debe finalizarse el juego con -1).
+Terminada la lectura de todos los valores de todos los juegos se debe mostrar el mínimo
+de todos los valores de todos los juegos, en qué número de juego apareció y la posición
+dentro del juego.
