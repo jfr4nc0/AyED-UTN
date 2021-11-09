@@ -1,0 +1,3 @@
+/home/neur0tik/CLionProjects/AlgoritmosResueltos/M1-26/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/neur0tik/CLionProjects/AlgoritmosResueltos/M1-26/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/neur0tik/CLionProjects/AlgoritmosResueltos/M1-26/cmake-build-debug/CMakeFiles/M1_26.dir
