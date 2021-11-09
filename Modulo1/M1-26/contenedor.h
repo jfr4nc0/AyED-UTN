@@ -1,7 +1,6 @@
 //
-// Created by neur0tik on 4/11/21.
+// Created by neur0tik on 9/11/21.
 //
-
 #ifndef M1_26_CONTENEDOR_H
 #define M1_26_CONTENEDOR_H
 
@@ -15,7 +14,6 @@ struct Contenedor // Cant de Contenedores: 100
     int peso; // en Kg
     int puerto; // Cant de Puertos: 3
 };
-//TODO Fix: no carga los datos correctamente
 void cargarDatosContenedor(int id, int peso, int puerto)
 {
     Contenedor c;
@@ -41,16 +39,4 @@ int cargarPuerto(int p)
     return p;
 }
 
-
-//TODO
-// Imprime el contenedor de mayor peso
-//void contenedorMayorPeso();
-
-
-//TODO
-// Cantidad de contenedores por Puertos (1, 2 o 3)
-/*void cantPuerto2();
-void cantPuerto3();
-void cantPuerto1();
-*/
 #endif //M1_26_CONTENEDOR_H
