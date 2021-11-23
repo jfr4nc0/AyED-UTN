@@ -1,0 +1,19 @@
+Un portal de noticias recibe contenidos que debe publicar en su portada o página principal. Estos
+contenidos llegan a través de una función cuyo prototipo vemos a continuación.
+News* readNews(); // retorna NULL cuando se detenga la entrega de
+// noticias.
+struct News
+{
+int idNews;
+int idAgencia; // agencia de noticias
+int idAutor; // autor
+int idGenero; // genero (policial, social, econonomia,...)
+int fecha; // TAD
+int hora; // TAD
+char titulo[100];
+char foto[100];
+char contenido[4096];
+};
+Se pide escribir un programa que, leyendo las noticias a través de la función antes mencionada,
+grabe los registros recibidos en un archivo llamados NOTICIAS.dat, ordenado por género.
+RESTRICCIÓN: No se permite subir los registros News completos a memoria.
