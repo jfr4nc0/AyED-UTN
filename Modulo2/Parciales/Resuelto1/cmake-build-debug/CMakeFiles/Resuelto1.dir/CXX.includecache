@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/neur0tik/CLionProjects/AlgoritmosResueltos/Modulo2/Parciales/Resuelto1/main.cpp
+iostream
+-
+cstring
+-
+
