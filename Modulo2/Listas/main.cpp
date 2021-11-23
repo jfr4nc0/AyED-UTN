@@ -315,3 +315,13 @@ int main()
 //Realice un programa que lea de un archivo datos de alumnos de un curso. A medida
 //que el archivo se va leyendo va insertando los registros en una lista. Liste finalmente
 //todos los nodos para verificar que la operación fue exitosa.
+
+
+struct Alumno
+{
+    Nombre char[50];
+    Apellido char[50];
+    DNI char[10];
+    Legajo int;
+    CodigoCarrera int;
+};
