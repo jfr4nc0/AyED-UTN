@@ -1,0 +1,8 @@
+Pre) Crear las estructuras necesarias para realizar los 3 ejercicios posteriores.
+1) Dado un archivo, con 4 campos dentro de una estructura; se pide cargar en memoria
+los registros, teniendo en cuenta que el primero de los 4 campos sirve solamente
+para moverse dentro del arreglo de colas.
+2) Diseñar una función que, recibiendo un par de números enteros, permita desencolar
+un registro de la cola mediante uno de los números del par, y con el otro, permita
+encolar en otra cola dicho registro de la recientemente desencolada.
+3) Diseñar una función que muestre cada uno de los registros de la cola.
