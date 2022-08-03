@@ -170,8 +170,8 @@ Coll<int> collIntFromString(string s)
     Coll<int> x = coll<int>(',');
     for(int i=0; i<tokenCount(s,','); i++)
     {
-        int i = stringToInt(getTokenAt(s,',',i));
-        collAdd<int>(x,i,intToString);
+        int p = stringToInt(getTokenAt(s,',',i));
+        collAdd<int>(x,p,intToString);
     }
 
     return x;
