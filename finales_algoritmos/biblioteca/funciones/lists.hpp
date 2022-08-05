@@ -12,11 +12,11 @@ struct Node
 };
 
 //Prototipo: Node<T>* add(Node<T>*& p,T e);
-//Descripción: Agrega el elemento e al final de la lista direccionada por p.
-//Parámetros:
-//   Node<T>*& p – Puntero al primer nodo de la lista.
-//   T e – Elemento que vamos a agregar.
-//Retorna: Node<T>* – Dirección del nodo que contiene al elemento que se agregó.
+//Descripciï¿½n: Agrega el elemento e al final de la lista direccionada por p.
+//Parï¿½metros:
+//   Node<T>*& p ï¿½ Puntero al primer nodo de la lista.
+//   T e ï¿½ Elemento que vamos a agregar.
+//Retorna: Node<T>* ï¿½ Direcciï¿½n del nodo que contiene al elemento que se agregï¿½.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
 //   add<int>(p,1);
@@ -49,8 +49,8 @@ Node<T>* add(Node<T>*& p, T x)
 }
 
 //Prototipo: void free(Node<T>*& p);
-//Descripción: Libera la memoria que utiliza lista direccionada por p. Asigna NULL a p.
-//Parámetro: Node<T>*& p – Puntero al primer nodo de la lista.
+//Descripciï¿½n: Libera la memoria que utiliza lista direccionada por p. Asigna NULL a p.
+//Parï¿½metro: Node<T>*& p ï¿½ Puntero al primer nodo de la lista.
 //Retorna: void.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
@@ -70,12 +70,12 @@ void free(Node<T>*& p)
 }
 
 //Prototipo: Node<T>* find(Node<T>* p,K k,int cmpTK(T,K));
-//Descripción: Retorna la dirección del nodo que contiene la primera ocurrencia del elemento concordante con cmpTK o NULL si ningún elemento concuerda con dicha función.
-//Parámetros:
-//   Node<T>* p – Puntero al primer nodo de la lista.
-//   K k – Elemento o clave de búsqueda del elemento.
-//   int cmpTK(T,K)– Función de comparación.
-//Retorna: Node<T>* – Dirección del nodo que contiene la primera ocurrencia del elemento que buscamos o NULL si la lista no contiene dicho elemento.
+//Descripciï¿½n: Retorna la direcciï¿½n del nodo que contiene la primera ocurrencia del elemento concordante con cmpTK o NULL si ningï¿½n elemento concuerda con dicha funciï¿½n.
+//Parï¿½metros:
+//   Node<T>* p ï¿½ Puntero al primer nodo de la lista.
+//   K k ï¿½ Elemento o clave de bï¿½squeda del elemento.
+//   int cmpTK(T,K)ï¿½ Funciï¿½n de comparaciï¿½n.
+//Retorna: Node<T>* ï¿½ Direcciï¿½n del nodo que contiene la primera ocurrencia del elemento que buscamos o NULL si la lista no contiene dicho elemento.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
 //   add<int>(p,1);
@@ -97,12 +97,12 @@ Node<T>* find(Node<T>* p, K v, int cmpTK(T, K))
 }
 
 //Prototipo: T remove(Node<T>*& p,K k,int cmpTK(T,K));
-//Descripción: Remueve la primera ocurrencia del elemento concordante con cmpTK.
-//Parámetros:
-//   Node<T>*& p – Puntero al primer nodo de la lista.
-//   K k – Elemento o clave de búsqueda del elemento que vamos a remover.
-//   int cmpTK(T,K)– Función de comparación.
-//Retorna: T – Valor del elemento que fue removido.
+//Descripciï¿½n: Remueve la primera ocurrencia del elemento concordante con cmpTK.
+//Parï¿½metros:
+//   Node<T>*& p ï¿½ Puntero al primer nodo de la lista.
+//   K k ï¿½ Elemento o clave de bï¿½squeda del elemento que vamos a remover.
+//   int cmpTK(T,K)ï¿½ Funciï¿½n de comparaciï¿½n.
+//Retorna: T ï¿½ Valor del elemento que fue removido.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
 //   add<int>(p,1);
@@ -139,9 +139,9 @@ T remove(Node<T>*& p, K v, int cmpTK(T, K))
 }
 
 //Prototipo: T removeFirst(Node<T>*& p);
-//Descripción: Remueve el primer elemento de la lista direccionada por p.
-//Parámetro: Node<T>*& p – Puntero al primer nodo de la lista.
-//Retorna: T – Valor del elemento que acabamos de remover.
+//Descripciï¿½n: Remueve el primer elemento de la lista direccionada por p.
+//Parï¿½metro: Node<T>*& p ï¿½ Puntero al primer nodo de la lista.
+//Retorna: T ï¿½ Valor del elemento que acabamos de remover.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
 //   add<int>(p,1);
@@ -161,11 +161,11 @@ T removeFirst(Node<T>*& p)
 }
 
 //Prototipo: Node<T>* addFirst(Node<T>*& p,T e);
-//Descripción: Agrega el elemento e al inicio de la lista direccionada por p.
-//Parámetros:
-//   Node<T>*& p – Puntero al primer nodo de la lista.
-//   T e – Elemento que vamos a agregar al inicio de la lista.
-//Retorna: Node<T>* – Dirección del nodo que contiene al elemento que se agregó.
+//Descripciï¿½n: Agrega el elemento e al inicio de la lista direccionada por p.
+//Parï¿½metros:
+//   Node<T>*& p ï¿½ Puntero al primer nodo de la lista.
+//   T e ï¿½ Elemento que vamos a agregar al inicio de la lista.
+//Retorna: Node<T>* ï¿½ Direcciï¿½n del nodo que contiene al elemento que se agregï¿½.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
 //   addFirst<int>(p,1);
@@ -182,13 +182,13 @@ void addFirst(Node<T>*& p, T v)
 }
 
 //Prototipo: Node<T>* orderedInsert(Node<T>*& p,T e,int cmpTT(T,T));
-//Descripción: Inserta el elemento e en la lista direccionada por p según el criterio que
-//establece la función cmpTT. La lista debe estar vacía u ordenada según cmpTT.
-//Parámetros:
-//   Node<T>*& p – Puntero al primer nodo de la lista.
-//   T e – Elemento que vamos a insertar.
-//   int cmpTT(T,T)– Función que establece el criterio de ordenamiento.
-//Retorna: Node<T>* – Dirección del nodo que acabamos de insertar.
+//Descripciï¿½n: Inserta el elemento e en la lista direccionada por p segï¿½n el criterio que
+//establece la funciï¿½n cmpTT. La lista debe estar vacï¿½a u ordenada segï¿½n cmpTT.
+//Parï¿½metros:
+//   Node<T>*& p ï¿½ Puntero al primer nodo de la lista.
+//   T e ï¿½ Elemento que vamos a insertar.
+//   int cmpTT(T,T)ï¿½ Funciï¿½n que establece el criterio de ordenamiento.
+//Retorna: Node<T>* ï¿½ Direcciï¿½n del nodo que acabamos de insertar.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
 //   orderedInsert<int>(p,2,cmpInt);
@@ -221,15 +221,15 @@ Node<T>* orderedInsert(Node<T>*& p, T v, int cmpTT(T, T))
 }
 
 //Prototipo: Node<T>* searchAndInsert(Node<T>*& p,T e,bool& enc,int cmpTT(T,T));
-//Descripción: Busca en la lista direccionada por p la primera ocurrencia de e y retorna
-//la dirección del nodo que lo contiene. Si e no existe en la lista entonces lo insertar en
-//orden, según el criterio establecido por cmpTT, y retorna la dirección del nodo insertado. Asigna true o false a enc según e fue encontrado o insertado.
-//Parámetros:
-//   Node<T>*& p – Puntero al primer nodo de la lista.
-//   T e – Elemento que vamos a insertar.
-//   bool& enc – Parámetro de salida que indica la acción que tomó la función.
-//   int cmpTT(T,T)– Función que establece el criterio de ordenamiento.
-//Retorna: Node<T>* – Dirección del nodo que acabamos de encontrar o insertar.
+//Descripciï¿½n: Busca en la lista direccionada por p la primera ocurrencia de e y retorna
+//la direcciï¿½n del nodo que lo contiene. Si e no existe en la lista entonces lo insertar en
+//orden, segï¿½n el criterio establecido por cmpTT, y retorna la direcciï¿½n del nodo insertado. Asigna true o false a enc segï¿½n e fue encontrado o insertado.
+//Parï¿½metros:
+//   Node<T>*& p ï¿½ Puntero al primer nodo de la lista.
+//   T e ï¿½ Elemento que vamos a insertar.
+//   bool& enc ï¿½ Parï¿½metro de salida que indica la acciï¿½n que tomï¿½ la funciï¿½n.
+//   int cmpTT(T,T)ï¿½ Funciï¿½n que establece el criterio de ordenamiento.
+//Retorna: Node<T>* ï¿½ Direcciï¿½n del nodo que acabamos de encontrar o insertar.
 //Ejemplo de uso:
 //   bool enc;
 //   Node<int>* p = NULL;
@@ -238,11 +238,11 @@ Node<T>* orderedInsert(Node<T>*& p, T v, int cmpTT(T, T))
 //   searchAndInsert<int>(p,2,enc,cmpInt); // p->{1,2}
 //   cout << enc << endl; // Salida: false
 //   searchAndInsert<int>(p,3,enc,cmpInt); // p->{1,2,3}
-//   cout << enc << endl; // Salida: false
-//   searchAndInsert<int>(p,2,enc,cmpInt); // p->{1,2,3}
 //   cout << enc << endl; // Salida: true
 //   searchAndInsert<int>(p,1,enc,cmpInt); // p->{1,2,3}
+//   cout << enc << endl; // Salida: false
 //   cout << enc << endl; // Salida: true
+//   searchAndInsert<int>(p,2,enc,cmpInt); // p->{1,2,3}
 //   searchAndInsert<int>(p,4,enc,cmpInt); // p->{1,2,3,4}
 //   cout << enc << endl; // Salida: false
 template <typename T>
@@ -261,11 +261,11 @@ Node<T>* searchAndInsert(Node<T>*& p,T e,bool& enc,int cmpTT(T,T))
 }
 
 //Prototipo: void sort(Node<T>*& p,int cmpTT(T,T));
-//Descripción: Ordena la lista direccionada por p según el criterio que establece la
-//función de comparación cmpTT.
-//Parámetros:
-//   Node<T>*& p – Puntero al primer nodo de la lista.
-//   int cmpTT(T,T)– Función que establece el criterio de ordenamiento.
+//Descripciï¿½n: Ordena la lista direccionada por p segï¿½n el criterio que establece la
+//funciï¿½n de comparaciï¿½n cmpTT.
+//Parï¿½metros:
+//   Node<T>*& p ï¿½ Puntero al primer nodo de la lista.
+//   int cmpTT(T,T)ï¿½ Funciï¿½n que establece el criterio de ordenamiento.
 //Retorna: void.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
@@ -300,9 +300,9 @@ void sort(Node<T>*& p, int cmpTT(T, T))
 }
 
 //Prototipo: bool isEmpty(Node<T>* p);
-//Descripción: Indica si la lista direccionada por p tiene o no elemento.
-//Parámetro: Node<T>* p – Puntero al primer nodo de la lista.
-//Retorna: bool – true o false según la lista tenga o no elementos.
+//Descripciï¿½n: Indica si la lista direccionada por p tiene o no elemento.
+//Parï¿½metro: Node<T>* p ï¿½ Puntero al primer nodo de la lista.
+//Retorna: bool ï¿½ true o false segï¿½n la lista tenga o no elementos.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
 //   add<int>(p,1);
@@ -319,11 +319,11 @@ bool isEmpty(Node<T>* p)
 }
 
 //Prototipo: Node<T>* push(Node<T>*& p,T e);
-//Descripción: Inserta un nodo conteniendo a e al inicio de la lista direccionada por p.
-//Parámetros:
-//   Node<T>*& p – Puntero al primer nodo de la lista.
-//   T e – Elemento que vamos a agregar al inicio de la lista (apilar).
-//Retorna: Node<T>* – Dirección del nodo que contiene al elemento que se agregó.
+//Descripciï¿½n: Inserta un nodo conteniendo a e al inicio de la lista direccionada por p.
+//Parï¿½metros:
+//   Node<T>*& p ï¿½ Puntero al primer nodo de la lista.
+//   T e ï¿½ Elemento que vamos a agregar al inicio de la lista (apilar).
+//Retorna: Node<T>* ï¿½ Direcciï¿½n del nodo que contiene al elemento que se agregï¿½.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
 //   push<int>(p,1); // p->{1}
@@ -336,9 +336,9 @@ void push(Node<T>*& p, T v)
 }
 
 //Prototipo: T pop(Node<T>*& p);
-//Descripción: Remueve el primer nodo de la lista direccionada por p.
-//Parámetro: Node<T>*& p – Puntero al primer nodo de la lista.
-//Retorna: T – Elemento que contenía el nodo que fue removido.
+//Descripciï¿½n: Remueve el primer nodo de la lista direccionada por p.
+//Parï¿½metro: Node<T>*& p ï¿½ Puntero al primer nodo de la lista.
+//Retorna: T ï¿½ Elemento que contenï¿½a el nodo que fue removido.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
 //   push<int>(p,1); // p->{1}
@@ -353,12 +353,12 @@ T pop(Node<T>*& p)
 }
 
 //Prototipo: Node<T>* enqueue(Node<T>*& p,Node<T>*& q,T e);
-//Descripción: Agrega el elemento e al final la lista direccionada por q.
-//Parámetros:
-//   Node<T>*& p – Puntero al primer nodo de la lista.
-//   Node<T>*& q – Puntero al último nodo de la lista.
-//   T e – Elemento que vamos a agregar al final de la lista (q).
-//Retorna: Node<T>* – Dirección del nodo que contiene al elemento que se agregó.
+//Descripciï¿½n: Agrega el elemento e al final la lista direccionada por q.
+//Parï¿½metros:
+//   Node<T>*& p ï¿½ Puntero al primer nodo de la lista.
+//   Node<T>*& q ï¿½ Puntero al ï¿½ltimo nodo de la lista.
+//   T e ï¿½ Elemento que vamos a agregar al final de la lista (q).
+//Retorna: Node<T>* ï¿½ Direcciï¿½n del nodo que contiene al elemento que se agregï¿½.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
 //   Node<int>* q = NULL;
@@ -384,11 +384,11 @@ Node<T>* enqueue(Node<T>*& p, Node<T>*& q, T v)
 }
 
 //Prototipo: Node<T>* enqueue(Node<T>*& q,T e);
-//Descripción: Agrega el elemento e al final la lista circular direccionada por q.
-//Parámetros:
-//   Node<T>*& q – Puntero al último nodo de la lista circular.
-//   T e – Elemento que vamos a agregar al final de la lista (q).
-//Retorna: Node<T>* – Dirección del nodo que contiene al elemento que se agregó.
+//Descripciï¿½n: Agrega el elemento e al final la lista circular direccionada por q.
+//Parï¿½metros:
+//   Node<T>*& q ï¿½ Puntero al ï¿½ltimo nodo de la lista circular.
+//   T e ï¿½ Elemento que vamos a agregar al final de la lista (q).
+//Retorna: Node<T>* ï¿½ Direcciï¿½n del nodo que contiene al elemento que se agregï¿½.
 //Ejemplo de uso:
 //   Node<int>* q = NULL;
 //   enqueue<int>(q,1); // {1}<-q
@@ -416,11 +416,11 @@ Node<T>* enqueue(Node<T>*& q, T e)
 }
 
 //Prototipo: T dequeue(Node<T>*& p,Node<T>*& q);
-//Descripción: Remueve el primer nodo de la lista direccionada por p.
-//Parámetros:
-//   Node<T>*& p – Puntero al primer nodo de la lista.
-//   Node<T>*& q – Puntero al último nodo de la lista.
-//Retorna: T – Elemento que contenía el nodo que fue removido.
+//Descripciï¿½n: Remueve el primer nodo de la lista direccionada por p.
+//Parï¿½metros:
+//   Node<T>*& p ï¿½ Puntero al primer nodo de la lista.
+//   Node<T>*& q ï¿½ Puntero al ï¿½ltimo nodo de la lista.
+//Retorna: T ï¿½ Elemento que contenï¿½a el nodo que fue removido.
 //Ejemplo de uso:
 //   Node<int>* p = NULL;
 //   Node<int>* q = NULL;
@@ -446,9 +446,9 @@ T dequeue(Node<T>*& p, Node<T>*& q)
 }
 
 //Prototipo: T dequeue(Node<T>*& q);
-//Descripción: Remueve el primer nodo de la lista circular direccionada por q.
-//Parámetro: Node<T>*& q – Puntero al último nodo de la lista circular.
-//Retorna: T – Elemento que contenía el nodo que fue removido.
+//Descripciï¿½n: Remueve el primer nodo de la lista circular direccionada por q.
+//Parï¿½metro: Node<T>*& q ï¿½ Puntero al ï¿½ltimo nodo de la lista circular.
+//Retorna: T ï¿½ Elemento que contenï¿½a el nodo que fue removido.
 //Ejemplo de uso:
 //   Node<int>* q = NULL;
 //   enqueue<int>(q,1); // {1}<-q
@@ -483,6 +483,12 @@ T* removeFirst2(Node<T>*&p){
 
     return &(aux->data);
 }
+
+struct Nodo
+{
+   int info;
+   Nodo* sgte;
+};
 
 
 #endif
